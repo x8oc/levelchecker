@@ -1,9 +1,8 @@
 -- ================== SETTINGS ==================
-local myUsername = "Chockedwithme"   -- <<< CHANGE THIS TO YOUR ROBLOX USERNAME
+local myUsername = "your user here"   -- <<< CHANGE THIS TO YOUR ROBLOX USERNAME
 -- =============================================
 
 local plr = game:GetService("Players").LocalPlayer
--- Function to convert ELO to Rank
 local function getRankFromELO(elo)
     if not tonumber(elo) then return "Unranked" end
     elo = tonumber(elo) 
