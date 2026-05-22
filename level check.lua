@@ -25,12 +25,8 @@ local function getRankFromELO(elo)
     end
 end
 notify("checker made by x8oc", 5)
-notify("loading 13%", "checker")
-wait(2)
-notify("loading 75%", "checker")
-wait(2)
-notify("loading 96%", "checker")
-wait(1)
+notify("Loading 99%")
+task.wait(math.huge)
 for _, otherPlayer in ipairs(game:GetService("Players"):GetPlayers()) do   
     if otherPlayer == plr or otherPlayer.Name == myUsername then
         continue
