@@ -1,7 +1,3 @@
--- ================== SETTINGS ==================
-local myUsername = "your user here"   -- <<< CHANGE THIS TO YOUR ROBLOX USERNAME
--- =============================================
-
 local plr = game:GetService("Players").LocalPlayer
 local function getRankFromELO(elo)
     if not tonumber(elo) then return "Unranked" end
